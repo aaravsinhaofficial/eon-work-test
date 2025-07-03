@@ -25,7 +25,7 @@ leader_fly = HybridTurningFly(
     contact_sensor_placements=contact_sensor_placements,
     seed=0,
     timestep=timestep,
-    spawn_pos=(3, 3, 0.5),
+    spawn_pos=(3, -3, 0.5),
     spawn_orientation=(0, 0, -np.pi / 2),  # Initial heading: downward
 )
 
@@ -45,7 +45,7 @@ tail_fly = HybridTurningFly(
     contact_sensor_placements=contact_sensor_placements,
     seed=0,
     timestep=timestep,
-    spawn_pos=(3, -3, 0.5),
+    spawn_pos=(3, 3, 0.5),
     spawn_orientation=(0, 0, -np.pi / 2),  # Initial heading: downward
 )
 
